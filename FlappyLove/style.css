@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden; /* منع التمرير */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #70c5ce;
+    touch-action: none; /* تعطيل التكبير والتمرير على الهواتف */
+}
+
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
